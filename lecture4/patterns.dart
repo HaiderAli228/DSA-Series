@@ -93,11 +93,11 @@ import 'dart:io';
 // G H I J
 void main() {
   int n = 4;
-  String num =  "A";
+  int asciiValue =  65;
   for (var i = 0; i < n; i++) {
     for (var j = 0; j <= i ; j++) {
-      stdout.write("$num  \t");
-      num = num + 1.toString();
+      stdout.write("${String.fromCharCode(asciiValue)}  \t");
+      asciiValue++;
     }
     print("\n");
   }
