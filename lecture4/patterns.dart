@@ -91,14 +91,31 @@ import 'dart:io';
 // B C
 // D E F
 // G H I J
+// void main() {
+//   int n = 4;
+//   int asciiValue =  65;
+//   for (var i = 0; i < n; i++) {
+//     for (var j = 0; j <= i ; j++) {
+//       stdout.write("${String.fromCharCode(asciiValue)}  \t");
+//       asciiValue++;
+//     }
+//     print("\n");
+//   }
+// }
+
+// =========================== print pattern ==============================
+// A
+// B B
+// C C C
+// D D D D
 void main() {
   int n = 4;
   int asciiValue =  65;
   for (var i = 0; i < n; i++) {
     for (var j = 0; j <= i ; j++) {
       stdout.write("${String.fromCharCode(asciiValue)}  \t");
-      asciiValue++;
     }
+     asciiValue++;
     print("\n");
   }
 }
